@@ -1,0 +1,45 @@
+﻿*
+{
+	margin: 0px;
+	font-family: 'DejaVu Sans';
+}
+
+html, body, #page
+{
+	height: 100%;
+	width: 100%;
+}
+
+body
+{
+	background-image: url("brick.jpg");
+}
+
+#page
+{
+	text-align: center;
+}
+
+#invisible
+{
+	height: 100%;
+	display:inline-block;
+    vertical-align:middle;
+}
+
+#workinprogress
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin: auto;
+	width: 773px;
+	height: 379px;
+	background-image: url("comingsoon.png");
+}
+
+p
+{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
